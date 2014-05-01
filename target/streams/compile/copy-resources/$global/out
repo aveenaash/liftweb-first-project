@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/abastola/workspace/LiftFristProj/src/main/resources/props,/home/abastola/workspace/LiftFristProj/target/scala-2.10/classes/props)[0m
+[0m[[0mdebug[0m] [0m	(/home/abastola/workspace/LiftFristProj/src/main/resources/logback.xml,/home/abastola/workspace/LiftFristProj/target/scala-2.10/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/abastola/workspace/LiftFristProj/src/main/resources/props/default.props,/home/abastola/workspace/LiftFristProj/target/scala-2.10/classes/props/default.props)[0m
