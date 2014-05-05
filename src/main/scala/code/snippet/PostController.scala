@@ -20,7 +20,7 @@ class PostController extends Loggable
 
     def processRequest() = {
 
-
+      // the folowing code saves forms data to database using mapper orm
       val myPost :Post = Post.create
       myPost.title(title)
       myPost.content(content)
