@@ -42,6 +42,8 @@ class Boot {
     val entries = List(
       Menu.i("Home") / "index", // the simple way to declare a menu
       Menu.i("Insert Post") / "post/insert",
+      Menu.i("Comet Chat") / "chat/index",
+      Menu.i("Clock Comet") / "clock/index",
 
       // more complex because this menu allows anything in the
       // /static path to be visible
