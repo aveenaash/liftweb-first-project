@@ -1,20 +1,17 @@
 <div id="main" class="lift:surround?with=default;at=content">
-    <div class="lift:comet?type=Chat">
-        Chat Messages
-        <ul>
-            <li>A first message</li>
-            <li class="clearable">Second message</li>
-            <li class="clearable">Third message</li>
-        </ul>
 
-    </div>
 
     <div>
         <form class="lift:form.ajax">
-            <input class="lift:ChatIn" id="chat_in"/>
+            <input class="lift:HulakiController" id="chat_in"/>
             <input type="submit" value="Say Something">
 
         </form>
+    </div>
+
+    <div class="lift:comet?type=Chat">
+        <textarea id="response"></textarea>
+
     </div>
 
 </div>

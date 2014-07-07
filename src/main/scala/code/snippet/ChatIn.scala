@@ -10,7 +10,7 @@ object ChatIn{
     SHtml.onSubmit( s =>
                       {
                         ChatServer ! s
-                        SetValById("chat_in","")
+//                        SetValById("chat_in","")
                       })
   }
 }

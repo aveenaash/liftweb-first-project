@@ -40,7 +40,7 @@ class Boot {
 
     // Build SiteMap
     val entries = List(
-      Menu.i("Home") / "index", // the simple way to declare a menu
+      Menu.i("Home") / "index", // the./ simple way to declare a menu
       Menu.i("Insert Post") / "post/insert",
       Menu.i("Comet Chat") / "chat/index",
       Menu.i("Clock Comet") / "clock/index",
@@ -53,6 +53,12 @@ class Boot {
     // set the sitemap.  Note if you don't want access control for
     // each page, just comment this line out.
     LiftRules.setSiteMap(SiteMap(entries:_*))
+
+    //Init the FoBo - Front-End Toolkit module,
+    //see http://liftweb.net/lift_modules for more info
+    FoBo.InitParam.JQuery=FoBo.JQuery1102
+    FoBo.InitParam.ToolKit=FoBo.Bootstrap320
+    FoBo.init()
 
     //Show the spinny image when an Ajax call starts
     LiftRules.ajaxStart =
